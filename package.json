@@ -1,0 +1,25 @@
+{
+  "name": "notebackend",
+  "version": "0.0.1",
+  "description": "fullstackopen.github.io part 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igguvol/fullstackopen-part3.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igguvol/fullstackopen-part3/issues"
+  },
+  "homepage": "https://github.com/igguvol/fullstackopen-part3#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
