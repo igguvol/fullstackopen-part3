@@ -36,7 +36,6 @@ app.get('/api/persons', (req, res) => {
 
 app.post('/api/persons', (req, res) => {
   var d = req.body;
-  console.log('body',d);
   if ( d.number === undefined || d.number === '' )
   {
     res.status(400).json( {'error': 'missing number'} );
@@ -70,7 +69,6 @@ app.post('/api/persons', (req, res) => {
 })
 
 app.get('/api/persons/:id', (req, res) => {
-  d = req.body;
   Person
     .findById( req.params.id )
     .then(person => {
